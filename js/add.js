@@ -1,6 +1,5 @@
-prompt('what is your name ');
 var name1 = prompt('what is your name');
-alert('welcome to our website' + name1);
+alert('welcome to our website'  +  name1);
 
 var airline= prompt('pleas tell us what is your favorite airline','Emirates-Airlines, Qatar-Airways, Turkey-Airlines');
 
@@ -22,7 +21,7 @@ else if(airline==='Qatar-Airways') {
     }
     else if (airline==='Turkey-Airlines') {
 
-        document.write('<img src="js/2.jpg/" height="200px" width="200px">');
+        document.write('<img src="/home/yazan/ASAC/luxury-flight/js/2.jpg" height="200px" width="200px">');
          document.write('<p>  It is a Turkish national airline, the main site of the company is in Istanbul, the largest of the Turkish cities, and takes Istanbul International Airport as a center for its operations. Turkish Airlines provides services to more than 315 destinations.</p>');
     
 
