@@ -6,21 +6,21 @@ function userAge(userAge) {
 
     while (!(userAge >= 18 && userAge < 100)) {
         alert("pleas the age you have been chose is not allowed your age should be more than or equal 18 and less 100 ")
-        var age = prompt('what is your age ')
+         age = prompt('what is your age ')
 
 
     }
-    return userAge;
+    
 }
 userAge(age);
 
 
 
-var yearbirth = function (year) {
+var yearbirth = function () {
 
     var birthdate = 2021 - age;
     alert('you are birth year is ' + birthdate);
-    return birthdate;
+
 
 
 }
@@ -84,6 +84,27 @@ function img() {
 }
 
 img();
+
+
+
+function price(num1,num2){
+
+    var price1= num1 * num2 * 100;
+    return price1
+
+
+
+     
+
+}
+
+var enter1= prompt ('enter the number of traveler');
+var enter2= prompt ('number of the bags');
+var price1 =price(enter1,enter2);
+alert('price is ' + price1);
+
+
+
 
 
 
