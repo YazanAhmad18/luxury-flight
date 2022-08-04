@@ -5,8 +5,9 @@ function userAge(userAge) {
 
 
     while (!(userAge >= 18 && userAge < 100)) {
-        alert("pleas the age you have been chose is not allowed your age should be more than or equal 18 and less 100 ")
+        
          age = prompt('what is your age ')
+        alert("pleas the age you have been chose is not allowed your age should be more than or equal 18 and less 100 ")
 
 
     }
